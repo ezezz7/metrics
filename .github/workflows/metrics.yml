@@ -1,9 +1,6 @@
-# Atualizando para forçar execução
 name: Metrics
-
 on:
-  schedule:
-    - cron: "0 0 * * *" # Atualiza todo dia à meia-noite
+  push: # Rodará toda vez que um commit for feito
   workflow_dispatch: # Permite rodar manualmente
 
 jobs:
