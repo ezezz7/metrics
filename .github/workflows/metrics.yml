@@ -1,4 +1,6 @@
+# Atualizando para forçar execução
 name: Metrics
+
 on:
   schedule:
     - cron: "0 0 * * *" # Atualiza todo dia à meia-noite
